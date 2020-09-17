@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * @author Administrator
+ * 打个注释
  */
 @SpringBootApplication
 @EnableConfigServer
