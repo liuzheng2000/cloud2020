@@ -1,11 +1,8 @@
 package com.atguigu.springcloud.service;
 
-import com.atguigu.springcloud.dao.PaymentDao;
 import com.atguigu.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 
 /**
  * @author Administrator
