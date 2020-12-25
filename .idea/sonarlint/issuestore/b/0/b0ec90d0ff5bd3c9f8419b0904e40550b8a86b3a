@@ -1,0 +1,17 @@
+
+[
+java:S3400A"9Remove this method and declare a constant for this value.(¶¨—ÿÿÿÿÿ8»†—ëÌ.
+J
+java:S14814"(Remove this unused "age" local variable.(Ğ­‘óşÿÿÿÿ8¸åÕêÌ.
+c
+java:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÛÇµÔÌ.
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8™ŞÅÓÌ.
+j	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×’Ò‚8Ç«“ëÌ.
+Y
+java:S18544"7Remove this useless assignment to local variable "age".(Ğ­‘óşÿÿÿÿ8¸åÕêÌ.
+e
+java:S35184"CMake sure this expression can't be zero before doing this division.(Ğ­‘óşÿÿÿÿ8¸åÕêÌ.
+E
+java:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÛÇµÔÌ.
+C
+java:S1172@"&Remove these unused method parameters.(×’Ò‚8»†—ëÌ.

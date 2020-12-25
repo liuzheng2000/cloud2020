@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c5ba169-201f-4d8b-8f6b-08e02965cdf4" name="Default Changelist" comment="SpringCloud完成">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cloud2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/018386fd4607f23c0517c851d33c3326e1e0497e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01ea10f5aad9c800a8a18339ac0eba94717a8f0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/020170ff16627a25f7015a76c6e3d144e437bf60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03a2a653d8128bda165be661a1c88bd33f58ca4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04c6ffa4659160f95cd9dba97e992a5412191a8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04d0cc91241c5808e703b9c0c07bc1f1a1860fde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bf120572ec7b1266d63a2a323ec8c764e9a6b60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d4eecdb9486eebd61bfed085e9ab3cfeb0ce25b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0df5522d7e7b79f6da6c76c4944d5d5e1744d160" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0ea4d315c9f6db32e2c2a13d13d69ca4be5117f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0eb3a93d6aca9b382a699dea22f30164841e42ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0eba517c2683074fdd729de1bb379021999fe637" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/102e18b64a275ebd8dfa2168607577b0e641d1d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/108f8c10fee8745745e886644253eca54a9a9c18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/110f99dc851854979ceeab3afe05cb767a54600b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11d55cbc429655218d66f46007c7d6df39371bcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13d11315314f7fbd3cb9a697bbfaf5acf944dd7a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1407fd74eb5100449d38e8ff661fb190ac5490a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14540e761f12441f855d63a487834d87cfbec10a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147537f0fc4a416a8bc71aa5304a98bd14f01956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16ebe93f193b16cc71985e917858f0641b9f910a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19a38669f76054f149be0b72b0b19b120966b3e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b4144669844451d2b86f559d36969473ad6ea96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bdeb76ed789a92e27011cfc292308cd0ddb0df7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e46c3989c32737491ac33ddffa50a4fe0ed3a80" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fb4d1b0d45d19bb4aeeabf3e78a791d2f6c793c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/218df82abb6b50cf4b69b19c34c61218eb53799e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22eb6fcc402924ec9f75db8ec38af37b3a8b0727" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/238cd6d03a2c4aa68267dda97d5cd7c2afae8d71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2614cecfc6926260589e2079b3e2359c0c8f7a9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2656649d037eac80d8b661f6f8b2ad37e7881522" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/268976eb4a369f2e928b180c55468195e21b4d9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26bdc102e3887666e254214e89acdf8cc4834b46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27a81c8f6dd1b50fe8383339643e2fb10e224b15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/290590c4734467fa6c0a7672b022aecce9caddd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a95167413827eed2d243637e027c40b6cf92682" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b5ee1939879347715749e39d139e86fe35ba326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e3202f62871862e5c0b9b32a8074027c8e5c44d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e49e8280f3d1b24ff9024949833cd8d79e5b54b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ed2f819ce25069188be26af4d26dd2ff7cdf616" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31978ae6210c3f6007b254eb6f9afad013569973" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/326cfcbf1ab28934d94cc09aab26178cd74a6a0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32ae4c8d72fb0d74fd0cfd697b54132f32a95e50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35538b9fd101c13a790e43cb97a5a413b2ae0201" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/355aa6d8fdb0d1a5fb9ac729e4de23f6141020d5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3639d5dfa6113453d0b3bcac947e7906ce5382f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37f18825878a7a1e21e12779c7883e2897fe47b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/391b9ce512ffb87d251b848dc5e884e46b717ead" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39505341bf23e4e331ccb60639747bb695278a91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cd5a568a4cabad02cc19c15ff7f50024188bd53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dfeb75579a26bd56355d018b3ffc6121500ea69" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41489912c912794438c33fbd9a835008e3bc240f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47557db53656ba366e88b111842a6ec79f24dee9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/480522f7b2fab9fa390451e68244b53e33632655" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4aab0330c906cea10c9156b5d1ece622e0f5115f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d49cb9474a1167d135f15337a9b0169271c8f88" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ea02ed2d36d62c4cfd731fe58cad64bb2280e62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52da154074d9add62c1dd448351117f86f79c9b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53f427b86c666ea464374d0df9c2864140a1775f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/559aa41f7ac5e0dcb9bed13bd4221db941fa3f9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56e09a057931ae168f0216f79008bc10d7046d87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58e305d7287293af878ad12933c92a76b1556374" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58e704b590bad2c2575f0f286a61aea125daf049" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a2d12f60f280ecf1d8639afd6fa3a5be50d513c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5ad5aded9aea5257776baccf34b12f33cce18f5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e86d014d105deb03e0afc1dbcebaec1d9f23495" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fb55324034d60f4425d57bcfecae9e69a30a2fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/606877a52e56e9fc244992aab9cf9dd9837645e4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60d08cbf8bf30a6973273a52c265130a118b1786" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6355d4e8f07f7d8b6c5d6b72f85f256582d257e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6482cd063a2fedff7511c59e3b4f67eee40a273b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67abfc745bedb9ecb0209319fe351cc081a45712" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69c2b01cc2ae9de37bc4bbb53c89f665afc20837" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69e96e1bf4b729d5d50d92138eaf97196afdcde9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d6c33a16c0aa7f45d90411c84a5bc5dbc2c397f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f72421dab24b1aaac4a7a449b08ab0d2f51f6a2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb9f7b1566f3fcf346d0f4ad1f7a891743bd2b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71904276e1046f638f218f7299ede192a1f701ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/722bf722244f87c593797aab2168fabc29fcce03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7499c3d0d7008bd986987ec2edad7bc0632f48de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c15e4da41f5a8d30972a8388cfe3b68d943fa8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74e8b6eecae6cd61c07a15ddcaf0fb38c6f828c9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75b8a53a0d07216d56168bfc5b884438e29d695a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/773b4e5a69d22b46084101d672b5e918877bc09f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79975b33f91da8c5bae8e1522d34c6396dbc56d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d1a91fa30cd835015ec29595e98a37afeb5d8f4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f611165ac2287d2ae893abe43e11bac00afb9ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f688f5dff30eba2de3106972d6bf8bc7722e546" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/8081ff4225912d76fde67958ee9d6311d4631766" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/861eb4671dac35dbc30c43ca7ba4bba87398dd9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89933cb10042c8379ef9e2f7fdb77d07a51206ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b5bea8408df97b400ec07d9ed846f0a595ae1ba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b6e5d6ccc174580b966007ac4ac9997987518b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c6749f7c3d145074870bc2095927a268c74de84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c6e96169e18bfa96962502af8bd4f9c79ec2adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c91e3ebc5bce2a4d5dcc52071ba5b1937d0bef5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cf05d42505ff49047085dd6dd68bf86e15d37a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8da22e18152e1e6608a8021502d9c985b1ab389f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/932fa99544c09adcfa26e4859a2512283e0979ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/936e23e2432d9352df3c5ac6c5cf13050dfe5a85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9617487e47a311b250415753c223a3e8f810f900" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c9f734bdf765da2390f8d32514db0bcc6f87a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9829bcd3e8f2f5ecc60c6ca1ea48a95c0b5a8439" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9936da1fbbc6ffcc16b3280519f47bb14677da9c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ae69eb21f33d83073b3254ae63e73430dc0d2ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c22c1f2de955acb3c3abef52ea5106ec16f2016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a04be1d0e8bbc0112e1c7f4f7215ed51b9f8376a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2abdc0836d7861b0489aa1de11a5dd282b8a5f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5c574d315d4880dde31cb476a3907d67e2ba35e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7450c70ac6bd804c5710da0e98e9f7b7daab42f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7fe87899e98e05fbe802c16ccf4278abad0d768" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8ac3e7dd43bb4cc2f400b7e0248778e480bdd53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac0c73a322e2736da7fb62caf3e86c235cbb7745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af345d23f397ce4d24d3e316e5e7af653e5427e7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afb8772037b830858bdc28411087329d365d307f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0ec90d0ff5bd3c9f8419b0904e40550b8a86b3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b38679ef39683e8971f06bda34e5288d7e5360d5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5c670140764c2ba561cb4f3d21b496a4e934e89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6a4791e04160fd699400dee49779b9e5ddc6e9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6c9461b261e2dfb5c48f662d09c50507736eba2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7737a56db0161a71fd9790b94e946aa11d608fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8226092c8001b290d48cd7b11d67183040cbf6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b93e503fd928f0db5dff7493d20e411bc23f59c2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac65ae21b8664f77ac14927924ad62880ce4b75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd079fa019b24e5030b8da596bfa6ea0f5e3f471" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be267e728984fef43a9ed2e4e2db9e5c181caf41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c596ea322e6621335cee43dd1d3d48c35564da12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7ac0a91094e722b943f0d605e1bc13bdbc284b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8d0189dde0a8b82168eb37b3aa41470f7ace45a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c994fd2018c245d4cee9467cb67cfd02b0163114" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb3d91770238cbb5327f277a0b887d59e60115ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbc41a5e972847aa950edb769870854c34b776f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd3f6f888cedabd6171ef84ea2d6bc3e59539800" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdc81ae39f1af3dd31eef9b2ea88ba55ab9753ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0f11a5b58b4ebfedfd1ebe030f36af8d01f8aa3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1883d7ea0124c68674a63c729740c7dce809979" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2bb34221ba1368d3a59155a41c7f7a6ca55a5cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3912a39ed19c91206be71b3dd4281fbf34ff847" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d72aabc2c0c0ca04ef8f794dd367d95bface16ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7d078aeebcb948d078a1f975f7cc5587934ada4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d95a22f486c4e5bb5eb93f4d7cf4d2f49f85c108" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9f09aaf759cb9743ccf4e312f870c3fd64cf92a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daa9ea1b6b7ef77207d0811c21085f864c0514c1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd114eb7904cdddc0d7081d3ef47125d4b80c83a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de2d7a6383f1ebb68bd912a37bf76034c56fcee0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de65435540cdfe08fa0e5b59240d88cb820e1616" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e04cea19caf419801e8db68b839153094ff53324" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1995853ffbca3e45e8996bf2c74b17d9b6097fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1c00b376b4713d910b272e50f233467d84d21f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2d1ee88f9611a94a125f090c1c470b081cd4f48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e301086822e012da44ea5a36a70f39ba2c36179c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e31a4fa757d12972af3f418fef4d53a7682c687f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e35055d3cdcdd6d0307b991153f85c2e8e657e0e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3bd6660f42a761cce1991cfe117453fea8c8b68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4764891613324f8ae617b619b0374fd32332939" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4e34d28f8138a61d62b7ec72f770635d24dcb85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e64050a451b0f7a51865b58b0ff88bf039adc8b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e64b7720ba3fad0ad0e239ec33f678d349d1db4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7d5a42b98b9de4e474b253ef6a523ddd5935d70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e85261647f5221455ace0daf7ed577850303f554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9745ecd55a134311e450448dca7e11abc6a5725" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eaa3e0f76180e6d6d1eae7900a0d5aac511dfe7d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebb8c6d28b118fcb9094b49e8d733984c3d21f47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed8931b6f73adcf8410e9b21fb935d56525ff5b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef18064c0a2e39817c328345fd9d2fbbbbdd4676" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f066b4cb69bf0ee20ea45912ae7f0a66034c3254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3fbfa6b7497b4c47a193befca3be75f39f626ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f54c46e513e648b2c8fb8be4fbcf1a2f36dfc7ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f68f21773ce5ff62a0d57bfe69728368023346ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8b1b9dd96b2fa7b4b93be9a4928dffb6ae39c64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8b841734b55d40832b5d808659ed927df153e46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f95504895c7d263a3058d90f3df5af275c82a5b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa6445968688cf618882f2d77c55708c1a072c3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbf0da2776341ac0fcd17cde725dd0e608aa1827" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd3a10ca793b08836e06900b4a0b688d3bee431b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fdf0ef64f44093292b48ad57bba52104f6adaa4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/feb858acbb8b6a9e920be2078731601978fb6dc1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/atguigu/springcloud/ConfigClientMain3355.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/atguigu/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/com/atguigu/springcloud/ConfigClientMain3366.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/com/atguigu/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/com/atguigu/springcloud/StreamMQMain8802.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/com/atguigu/springcloud/controller/ReceiveMessageListenerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/META-INF/cloud-stream-rabbitmq-consumer8803.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/com/atguigu/springcloud/StreamMQMain8803.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/com/atguigu/springcloud/controller/ReceiveMessageListenerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/META-INF/cloud-stream-rabbitmq-provider8801.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/atguigu/stringcloud/StreamMQMain8801.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/atguigu/stringcloud/controller/SendMessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/atguigu/stringcloud/service/IMessageProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/atguigu/stringcloud/service/impl/MessageProviderImpl.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mvnrep" />
+        <option name="mavenHome" value="E:\F\apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="E:\F\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1hPYJK6ksXeBba6xAFzuDFcWEwV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4470478" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.springcloud.config" />
+      <recent name="springcloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\cloud2020\seata-order-service2002\src\main\java\com\atguigu\springcloud\alibaba" />
+      <recent name="G:\cloud2020\seata-order-service2002\src\main\resources" />
+      <recent name="G:\cloud2020\cloudalibaba-provider-payment9002\src\main\java" />
+      <recent name="G:\cloud2020\cloud-consumerconsul-order80\src\main\resources" />
+      <recent name="G:\cloud2020\cloud-provider-payment8002\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderMain80">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center-3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.MainApp8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-config-nacos-client3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.NacosConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsultMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumerconsul-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderConsultMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderFeignMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-hystrix-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderHystrixMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderMain80" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-consumer-nacos-order83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.OrderNacosMain84" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZkMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumerzk-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderZkMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payment8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.Payment8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentHystrixMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-providerconsul-payment8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountMainApp2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-account-service2003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.SeataAccountMainApp2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderMainApp2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-order-service2001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.SeataOrderMainApp2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageServiceApplication2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-order-service2002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.SeataStorageServiceApplication2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.stringcloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
+        <item itemvalue="Spring Boot.SeataStorageServiceApplication2002" />
+        <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
+        <item itemvalue="Spring Boot.PaymentMain9002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringConfigurationTabSettings">
+    <option name="sortAlpha" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c5ba169-201f-4d8b-8f6b-08e02965cdf4" name="Default Changelist" comment="" />
+      <created>1599914120427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599914120427</updated>
+      <workItem from="1599914132594" duration="1542000" />
+      <workItem from="1599915694573" duration="2230000" />
+      <workItem from="1599917987025" duration="92000" />
+      <workItem from="1599918168112" duration="33000" />
+      <workItem from="1599958378199" duration="6561000" />
+      <workItem from="1599965458492" duration="401000" />
+      <workItem from="1599965880925" duration="341000" />
+      <workItem from="1599970076276" duration="12801000" />
+      <workItem from="1600003345366" duration="20000" />
+      <workItem from="1600050328779" duration="7711000" />
+      <workItem from="1600066669886" duration="41000" />
+      <workItem from="1600084346757" duration="1112000" />
+      <workItem from="1600085491198" duration="130000" />
+      <workItem from="1600085663270" duration="944000" />
+      <workItem from="1600086629298" duration="1653000" />
+      <workItem from="1600090158293" duration="797000" />
+      <workItem from="1600141308199" duration="5350000" />
+      <workItem from="1600166604725" duration="5016000" />
+      <workItem from="1600174240772" duration="2873000" />
+      <workItem from="1600223521440" duration="2035000" />
+      <workItem from="1600231337035" duration="14511000" />
+      <workItem from="1600324778680" duration="13922000" />
+      <workItem from="1600575747446" duration="9391000" />
+      <workItem from="1600681447918" duration="358000" />
+      <workItem from="1600949327215" duration="5230000" />
+      <workItem from="1601010660191" duration="2083000" />
+      <workItem from="1601014031980" duration="1626000" />
+      <workItem from="1601016147803" duration="4429000" />
+      <workItem from="1601097971883" duration="5809000" />
+      <workItem from="1601172332804" duration="10735000" />
+      <workItem from="1601261499997" duration="4126000" />
+      <workItem from="1601281618296" duration="907000" />
+      <workItem from="1601345240185" duration="6709000" />
+      <workItem from="1601375780900" duration="95000" />
+      <workItem from="1601377295183" duration="320000" />
+      <workItem from="1601902833172" duration="1248000" />
+      <workItem from="1601904112401" duration="48000" />
+      <workItem from="1605420718686" duration="440000" />
+      <workItem from="1608687316620" duration="18000" />
+      <workItem from="1608883821181" duration="1348000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试1">
+      <created>1600338344073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600338344073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加cloud-config-client">
+      <created>1600348675880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600348675880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="中极篇 完成">
+      <created>1600591563687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600591563687</updated>
+    </task>
+    <task id="LOCAL-00004" summary="120 完成">
+      <created>1601172884243</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601172884243</updated>
+    </task>
+    <task id="LOCAL-00005" summary="最后一章">
+      <created>1601261561199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601261561199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SpringCloud完成">
+      <created>1601356976855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601356976855</updated>
+    </task>
+    <task id="LOCAL-00007" summary="不同只处">
+      <created>1608884907905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608884907905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="测试1" />
+    <MESSAGE value="添加cloud-config-client" />
+    <MESSAGE value="中极篇 完成" />
+    <MESSAGE value="120 完成" />
+    <MESSAGE value="最后一章" />
+    <MESSAGE value="SpringCloud完成" />
+    <MESSAGE value="不同只处" />
+    <option name="LAST_COMMIT_MESSAGE" value="不同只处" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608884318037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="505" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1608884318037" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608885117839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608885117839" />
+    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1608884905265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1608884905265" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1608884889265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1608884889265" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1608884292852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608884292852" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608884914763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608884914763" />
+    <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608885088469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608885088469" />
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>

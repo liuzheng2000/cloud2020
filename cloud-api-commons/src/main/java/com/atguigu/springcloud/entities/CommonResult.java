@@ -4,14 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author Administrator
- */
-
-/**
- * 这是不同之处
- * @param <T>
- */
 
 @Data
 @AllArgsConstructor
