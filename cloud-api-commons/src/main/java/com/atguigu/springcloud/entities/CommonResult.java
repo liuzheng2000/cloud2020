@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class CommonResult<T> {
     private Integer code;
     private String message;
@@ -15,4 +16,8 @@ public class CommonResult<T> {
     public CommonResult(Integer code,String message){
         this(code,message,null);
     }
+    private static void add(){
+        System.out.println("aaaa");
+    }
 }
+
